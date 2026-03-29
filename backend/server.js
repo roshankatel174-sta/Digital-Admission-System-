@@ -28,7 +28,7 @@ app.use('/api/messages', require('./routes/messageRoutes'));
 app.use('/api/notifications', require('./routes/notificationRoutes'));
 app.use('/api/reports', require('./routes/reportRoutes'));
 app.use('/api/users', require('./routes/userRoutes'));
-app.use('/api/settings', require('./routes/settingsRoutes'));
+app.use('/api/settings', require('./routes/settingRoutes'));
 app.use('/api/reviews', require('./routes/reviewRoutes'));
 
 // Health check
